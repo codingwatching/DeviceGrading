@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bbcfad89d873384fb4f4eaa3c075080, type: 3}
+  m_Name: UEDeviceGradingForGOT
+  m_EditorClassIdentifier: 
+  m_settings:
+    m_Ranks:
+    - coreCount: 4
+      frequency: 2000
+      memorySize: 2048
+      iosDevice: 25
+    - coreCount: 4
+      frequency: 2000
+      memorySize: 3072
+      iosDevice: 32
+    - coreCount: 4
+      frequency: 2000
+      memorySize: 6144
+      iosDevice: 39
+    - coreCount: 8
+      frequency: 2400
+      memorySize: 6144
+      iosDevice: 40
+  m_listGPUInfo:
+  - m_id: 1
+    m_name: adreno (tm) 200
+    m_quality: 0
+  - m_id: 2
+    m_name: adreno (tm) 203
+    m_quality: 0
+  - m_id: 3
+    m_name: adreno (tm) 205
+    m_quality: 0
+  - m_id: 4
+    m_name: adreno (tm) 220
+    m_quality: 0
+  - m_id: 5
+    m_name: adreno (tm) 225
+    m_quality: 0
+  - m_id: 6
+    m_name: adreno (tm) 302
+    m_quality: 0
+  - m_id: 7
+    m_name: adreno (tm) 304
+    m_quality: 0
+  - m_id: 8
+    m_name: adreno (tm) 305
+    m_quality: 0
+  - m_id: 9
+    m_name: adreno (tm) 306
+    m_quality: 0
+  - m_id: 10
+    m_name: adreno (tm) 308
+    m_quality: 0
+  - m_id: 11
+    m_name: adreno (tm) 320
+    m_quality: 0
+  - m_id: 12
+    m_name: adreno (tm) 330
+    m_quality: 1
+  - m_id: 13
+    m_name: adreno (tm) 405
+    m_quality: 0
+  - m_id: 14
+    m_name: adreno (tm) 418
+    m_quality: 1
+  - m_id: 15
+    m_name: adreno (tm) 420
+    m_quality: 1
+  - m_id: 16
+    m_name: adreno (tm) 430
+    m_quality: 1
+  - m_id: 17
+    m_name: adreno (tm) 504
+    m_quality: 0
+  - m_id: 18
+    m_name: adreno (tm) 505
+    m_quality: 0
+  - m_id: 19
+    m_name: adreno (tm) 506
+    m_quality: 1
+  - m_id: 20
+    m_name: adreno (tm) 508
+    m_quality: 1
+  - m_id: 21
+    m_name: adreno (tm) 509
+    m_quality: 1
+  - m_id: 22
+    m_name: adreno (tm) 510
+    m_quality: 1
+  - m_id: 23
+    m_name: adreno (tm) 512
+    m_quality: 2
+  - m_id: 24
+    m_name: adreno (tm) 530
+    m_quality: 2
+  - m_id: 25
+    m_name: adreno (tm) 540
+    m_quality: 3
+  - m_id: 26
+    m_name: adreno (tm) 610
+    m_quality: 1
+  - m_id: 27
+    m_name: adreno (tm) 612
+    m_quality: 2
+  - m_id: 28
+    m_name: adreno (tm) 615
+    m_quality: 2
+  - m_id: 29
+    m_name: adreno (tm) 616
+    m_quality: 2
+  - m_id: 30
+    m_name: adreno (tm) 618
+    m_quality: 2
+  - m_id: 31
+    m_name: adreno (tm) 620
+    m_quality: 3
+  - m_id: 32
+    m_name: adreno (tm) 630
+    m_quality: 3
+  - m_id: 33
+    m_name: adreno (tm) 640
+    m_quality: 3
+  - m_id: 34
+    m_name: adreno (tm) 650
+    m_quality: 3
+  - m_id: 35
+    m_name: mali-400 mp
+    m_quality: 0
+  - m_id: 36
+    m_name: mali-450 mp
+    m_quality: 0
+  - m_id: 37
+    m_name: mali-g31
+    m_quality: 0
+  - m_id: 38
+    m_name: mali-g51
+    m_quality: 1
+  - m_id: 39
+    m_name: mali-g52
+    m_quality: 2
+  - m_id: 40
+    m_name: mali-g52 mc2
+    m_quality: 1
+  - m_id: 41
+    m_name: mali-g57
+    m_quality: 3
+  - m_id: 42
+    m_name: mali-g71
+    m_quality: 2
+  - m_id: 43
+    m_name: mali-g71 mp2
+    m_quality: 1
+  - m_id: 44
+    m_name: mali-g72
+    m_quality: 3
+  - m_id: 45
+    m_name: mali-g72 mp3
+    m_quality: 1
+  - m_id: 46
+    m_name: mali-g76
+    m_quality: 3
+  - m_id: 47
+    m_name: mali-g76 mc4
+    m_quality: 2
+  - m_id: 48
+    m_name: mali-g77
+    m_quality: 3
+  - m_id: 49
+    m_name: mali-t604
+    m_quality: 0
+  - m_id: 50
+    m_name: mali-t624
+    m_quality: 0
+  - m_id: 51
+    m_name: mali-t628
+    m_quality: 1
+  - m_id: 52
+    m_name: mali-t720
+    m_quality: 0
+  - m_id: 53
+    m_name: mali-t760
+    m_quality: 1
+  - m_id: 54
+    m_name: mali-t820
+    m_quality: 0
+  - m_id: 55
+    m_name: mali-t830
+    m_quality: 0
+  - m_id: 56
+    m_name: mali-t860
+    m_quality: 1
+  - m_id: 57
+    m_name: mali-t880
+    m_quality: 1
+  - m_id: 58
+    m_name: nvidia tegra
+    m_quality: 0
+  - m_id: 59
+    m_name: nvidia tegra 3
+    m_quality: 0
+  - m_id: 60
+    m_name: powervr rogue g6200
+    m_quality: 0
+  - m_id: 61
+    m_name: powervr rogue g6400
+    m_quality: 1
+  - m_id: 62
+    m_name: powervr rogue g6430
+    m_quality: 1
+  - m_id: 63
+    m_name: powervr rogue ge8100
+    m_quality: 0
+  - m_id: 64
+    m_name: powervr rogue ge8300
+    m_quality: 0
+  - m_id: 65
+    m_name: powervr rogue ge8320
+    m_quality: 1
+  - m_id: 66
+    m_name: powervr rogue ge8322
+    m_quality: 1
+  - m_id: 67
+    m_name: powervr rogue gm9446
+    m_quality: 2
+  - m_id: 68
+    m_name: powervr rogue gt7400 plus
+    m_quality: 1
+  - m_id: 69
+    m_name: powervr rogue gx6250
+    m_quality: 1
+  - m_id: 70
+    m_name: powervr rogue hood
+    m_quality: 1
+  - m_id: 71
+    m_name: powervr sgx 540
+    m_quality: 0
+  - m_id: 72
+    m_name: powervr sgx 544mp
+    m_quality: 0
+  - m_id: 73
+    m_name: powervr sgx 544mp2
+    m_quality: 0
+  - m_id: 74
+    m_name: videocore iv hw
+    m_quality: 0
+  - m_id: 75
+    m_name: vivante gc1000
+    m_quality: 0
+  - m_id: 76
+    m_name: vivante gc2000
+    m_quality: 0
+  - m_id: 77
+    m_name: vivante gc4000
+    m_quality: 0
+  - m_id: 78
+    m_name: vivante gc7000ul
+    m_quality: 0
